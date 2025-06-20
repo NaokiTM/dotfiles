@@ -109,7 +109,7 @@ fi
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
 if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then 
     . /usr/share/bash-completion/bash_completion
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
@@ -117,8 +117,15 @@ if ! shopt -oq posix; then
 fi
 
 fastfetch
+#timeout 2s pipes.sh -t 3 -c 4 -R & sleep 1 && clear
 
-alias intellij='cd /home/naoki/idea-IC-233.14015.106/bin && ./idea.sh' 
+alias intellij='cd /home/naoki/Downloads/idea-IC-242.23339.11/bin/ && ./idea' 
+alias flatpakintellij='flatpak run com.jetbrains.IntelliJ-IDEA-Community'
+alias scenebuilder='/home/naoki/SceneBuilder/scenebuilder/bin/SceneBuilder' 
+alias google='w3m google.com'
+
+#put current wallpaper name in the directory here so u can temporary fix wallpaper if screen dimensions change
+alias fixwall='feh --bg-fill ~/Pictures/wall.png'
 
 setwallpaper() {
     if [ -z "$1" ]; then
@@ -127,3 +134,8 @@ setwallpaper() {
         feh --bg-fill ~/Pictures/"$1"
     fi
 }
+
+export JAVA_HOME=/opt/jdk-21
+export PATH=$JAVA_HOME/bin:$PATH
+
+PS1='\[\033[38;2;0;255;204m\]\u@\h:\w\$ \[\033[0m\]'
