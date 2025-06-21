@@ -7,4 +7,5 @@ configuration {
  color-window: "#292f56, #919ba0, #1c2023";
 }
 
+/* Theme used for the rofi launcher. put name of theme file below*/
 @theme "rounded-gray-dark.rasi"

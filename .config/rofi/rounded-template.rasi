@@ -15,7 +15,9 @@ window {
     location:       north;
     y-offset:       calc(50% - 176px);
     width:          480;
-    border-radius:  24px;
+
+    //Change this line to give the window rounded corners (default 24px, 0px is sharp corners)
+    border-radius:  0px;
 
     background-color:   @bg0;
 }
