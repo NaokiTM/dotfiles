@@ -10,4 +10,5 @@ vim.o.smartindent = true
 vim.keymap.set('n', '<Space>', '<Nop>', { silent = true, noremap = true })
 vim.g.mapleader = ' '
 
+-- Import and execute lazy plugin manager and its settings defined in 'config/lazy.lua'
 require("config.lazy")

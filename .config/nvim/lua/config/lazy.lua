@@ -1,3 +1,12 @@
+
+-- lazy.lua
+-- 
+-- This file configures and manages lazy-loading of plugins or modules.
+-- It sets up on-demand loading to improve startup time and resource usage,
+-- ensuring plugins are only loaded when needed.
+--
+-- Customize plugin specs, load conditions, and setup here.
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
