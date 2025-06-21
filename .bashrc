@@ -116,26 +116,35 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#Run fastfetch on terminal startup
 fastfetch
+
+# Run pipes.sh for 2 seconds when terminal opens. currently not used since its bad.
 #timeout 2s pipes.sh -t 3 -c 4 -R & sleep 1 && clear
 
+
+#Aliases
 alias intellij='cd /home/naoki/Downloads/idea-IC-242.23339.11/bin/ && ./idea' 
 alias flatpakintellij='flatpak run com.jetbrains.IntelliJ-IDEA-Community'
 alias scenebuilder='/home/naoki/SceneBuilder/scenebuilder/bin/SceneBuilder' 
 alias google='w3m google.com'
 
-#put current wallpaper name in the directory here so u can temporary fix wallpaper if screen dimensions change
-alias fixwall='feh --bg-fill ~/Pictures/wall.png'
 
+# use setwallpaper <image name> to set the wallpaper temporarily. permanent wallpaper changes need to be done in the i3 config.
 setwallpaper() {
-    if [ -z "$1" ]; then
+    if [ -z "$1" ]; then 
         echo "Usage: setbg <image_filename>"
     else
         feh --bg-fill ~/Pictures/"$1"
     fi
 }
 
+#even more optimised version of above. if monitor dimensions change, run this to reset the wallpaper.
+alias fixwall='feh --bg-fill ~/Pictures/wall.png'
+
+#Define java home and path variables for java?
 export JAVA_HOME=/opt/jdk-21
 export PATH=$JAVA_HOME/bin:$PATH
 
+# Forces prompt colour in terminal, using my own rgb values
 PS1='\[\033[38;2;0;255;204m\]\u@\h:\w\$ \[\033[0m\]'
