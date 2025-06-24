@@ -17,7 +17,7 @@ git clone https://github.com/NaokiTM/dotfiles
 # How to install each of the tools I use (for my own reference, and this list is for linux mint)
 
 ## The following can be installed using apt install (as far as the ones I know):
-- polybar, rofi, neovim (though versions 10+ have to be built from source, needed for installing lazyvim), w3m, i3
+- polybar, rofi, neovim (though versions 10+ have to be built from source, needed for installing lazyvim), w3m, i3, fehbg (for setting background image)
 
 ## The following need to be built from source
 - pipes.sh, possibly i3 gaps
