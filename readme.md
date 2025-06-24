@@ -4,7 +4,6 @@
 
 # To replicate my setup:
 
-- Install the same setup as me (linux and i3 first, then all the others in no particular order), and have git installed and set up. I will post installation tips at some point on here
 - Navigate to your terminal and clone the git repository into your home directory
 ```bash 
 git clone https://github.com/NaokiTM/dotfiles
@@ -15,3 +14,10 @@ git clone https://github.com/NaokiTM/dotfiles
 - In the process of learning to use neovim fluently, but until then my vscode extensions are:
 - morgan.codes-theme / andromeda / golden orange for theme, tailwind intellisense, eslint, live server, react native snippets, python and python-debugger, vscode-icons
 
+# How to install each of the tools I use (for my own reference, and this list is for linux mint)
+
+## The following can be installed using apt install (as far as the ones I know):
+- polybar, rofi, neovim (though versions 10+ have to be built from source, needed for installing lazyvim), w3m, i3
+
+## The following need to be built from source
+- pipes.sh, possibly i3 gaps
