@@ -21,3 +21,10 @@ git clone https://github.com/NaokiTM/dotfiles
 
 ## The following need to be built from source
 - pipes.sh, possibly i3 gaps
+
+## Installing i3 gaps
+```bash
+sudo add-apt-repository ppa:regolith-linux/release
+sudo apt update
+sudo apt install i3-gaps
+```
