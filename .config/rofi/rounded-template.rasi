@@ -17,7 +17,7 @@ window {
     width:          480;
 
     //Change this line to give the window rounded corners (default 24px, 0px is sharp corners)
-    border-radius:  0px;
+    border-radius:  24px;
 
     background-color:   @bg0;
 }
