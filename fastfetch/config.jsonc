@@ -33,6 +33,11 @@
             "type": "kernel",
             "key": "    Kernel",
             "keyColor": "red"
+        },   
+        {
+            "type": "packages",
+            "key": "    packages",
+            "keyColor": "red"
         },
         {
           "type": "uptime",
