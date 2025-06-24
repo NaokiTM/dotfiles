@@ -1,16 +1,27 @@
---dracula
 return {
   -- add dracula
-  { "Mofiqul/dracula.nvim" },
+--  { "Mofiqul/dracula.nvim" },
+
+    {
+        'AlexvZyl/nordic.nvim',
+        lazy = false,
+        priority = 1000,
+        config = function()
+            require('nordic').load()
+        end
+    },
+
 
   -- Configure LazyVim to load dracula
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "dracula",
+      colorscheme = "nordic",
+--    colorscheme = "dracula"
     },
   },
 }
+
 
 --catpuccin
 -- return {
