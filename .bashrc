@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 #Run fastfetch on terminal startup
-fastfetch
+# fastfetch
 
 # Run pipes.sh for 2 seconds when terminal opens. currently not used since its bad.
 #timeout 2s pipes.sh -t 3 -c 4 -R & sleep 1 && clear
@@ -140,11 +140,12 @@ setwallpaper() {
 }
 
 #even more optimised version of above. if monitor dimensions change, run this to reset the wallpaper.
-alias fixwall='feh --bg-fill ~/Pictures/wall.png'
+alias fixwall='feh --bg-fill ~/Pictures/silenthill.jpg'
 
 #Define java home and path variables for java?
 export JAVA_HOME=/opt/jdk-21
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Forces prompt colour in terminal, using my own rgb values
-PS1='\[\033[38;2;0;255;204m\]\u@\h:\w\$ \[\033[0m\]'
+# PS1='\[\033[38;2;0;255;204m\]\u@\h:\w\$ \[\033[0m\]'
+PS1='\[\033[38;2;240;198;116m\]\u@\h:\w\$ \[\033[0m\]'
