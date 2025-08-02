@@ -1,91 +1,57 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-
-// Visual logo with an image next to the left of the modules. uncomment put image into desired directory to apply. visual logos like these only work with kitty terminal
-
-//        "type": "kitty-direct",
-//        "source": "~/fastfetch/circle.png",
-//        "width": 3,
-//        "height": 14,
-//        "padding": {
-//          "top": 1,
-//          "left": 3
-//        },
-        "source": "none"
+        "source": "arch_small", // search for logos: fastfetch --list-logos or --print-logos
+        "padding": {
+	        "top": 1,
+            "left": 3
+        },
+        "color": {
+          "1": "#86B5F3",
+          "2": "#86B5F3"
+        }
     },
     "display": {
-        "separator": " : ",
+        "separator": "  "
     },
     "modules": [
-        "break",
+	"break",
         {
-            "type": "custom",
-            "format": "  ┌──────────────компьютер Наоки──────────────┐"
+            "type": "users",
+            "key": "┌  ",
+            "keyColor": "34",  // = color4
         },
-        "break",
         {
             "type": "os",
-            "key": "    OS",
-            "keyColor": "red"
+            "key": "├  ",
+            "keyColor": "34",  // = color4
         },
         {
             "type": "kernel",
-            "key": "    Kernel",
-            "keyColor": "red"
-        },   
-        {
-            "type": "packages",
-            "key": "    packages",
-            "keyColor": "red"
-        },
-        {
-          "type": "uptime",
-          "key": "    Uptime",
-          "keyColor": "green"
+            "key": "├  ",
+            "keyColor": "34",
         },
         {
             "type": "wm",
-            "key": "    WM",
-            "keyColor": "yellow"
+            "key": "├  ",
+            "keyColor": "34", 
         },
         {
-            "type": "terminal",
-            "key": "    Terminal",
-            "keyColor": "yellow"
+            "type": "uptime",
+            "key": "├  ",
+            "keyColor": "34", 
         },
         {
-            "type": "cpu",
-            "format": "{1}",
-            "key": "    CPU",
-            "keyColor": "blue"
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": "├  ",
+            "keyColor": "34",  
         },
         {
-            "type": "gpu",
-            "format": "{2}",
-            "key": "    GPU",
-            "keyColor": "blue"
-        },
-        {
-            "type": "memory",
-            "key": "    Memory",
-            "keyColor": "magenta"
-        },
-        {
-          "type": "disk",
-          "key": "    Disk",
-          "keyColor": "magenta"
+            "type": "processes",
+            "key": "└  ",
+            "keyColor": "34", 
         },
         "break",
-        {
-            "type": "custom",
-            "format": "  └───────────────────────────────────────────┘"
-        },
-        {
-            "type": "colors",
-            "paddingLeft": 3,
-            "symbol": "circle"
-        },
-        "break"
     ]
 }
