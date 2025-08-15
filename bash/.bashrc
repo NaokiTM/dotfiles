@@ -6,7 +6,7 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-pokeget random --hide-name | fastfetch --file-raw - || fastfetch
+pokeget xerneas --hide-name | fastfetch --file-raw - || fastfetch
 
 alias intellij='/opt/idea-IU-252.23892.409/bin/idea.sh'
 
