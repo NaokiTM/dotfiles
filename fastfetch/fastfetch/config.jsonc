@@ -1,14 +1,16 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "void_small", 
+        "source": "~/dotfiles/fastfetch/fastfetch/logos/void.gif",
+	"width": 15,
+	"height": 6,
         "padding": {
             "top": 1,
             "left": 3
         },
         "color": {
-          "1": "#00F773",
-          "2": "#00F773"
+          "1": "#FFFFFF",
+          "2": "#FFFFFF"
         }
     },
     "display": {
@@ -19,38 +21,38 @@
         {
             "type": "users",
             "key": "┌  ",
-            "keyColor": "#00F773"
+            "keyColor": "#FFFFFF"
         },
         {
             "type": "os",
             "key": "├  ",
-            "keyColor": "#00F773"
+            "keyColor": "#FFFFFF"
         },
         {
             "type": "kernel",
-            "keyColor": "#00F773",
+            "keyColor": "#FFFFFF",
             "key": "├  "
         },
         {
             "type": "wm",
             "key": "├  ",
-            "keyColor": "#00F773"
+            "keyColor": "#FFFFFF"
         },
         {
             "type": "uptime",
             "key": "├  ",
-            "keyColor": "#00F773"
+            "keyColor": "#FFFFFF"
         },
         {
             "type": "packages",
             "format": "{} (xbps)",
             "key": "├  ",
-            "keyColor": "#00F773"
+            "keyColor": "#FFFFFF"
         },
         {
             "type": "processes",
             "key": "└  ",
-            "keyColor": "#00F773"
+            "keyColor": "#FFFFFF"
         },
         "break"
     ]
