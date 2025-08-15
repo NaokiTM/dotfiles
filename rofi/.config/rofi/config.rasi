@@ -1,0 +1,11 @@
+configuration {
+ modi: "run,window,drun,ssh";
+ kb-cancel: "Escape,Alt+F1";
+ color-normal: "#292f56, #919ba0, #1c2023, #a4a4a4, #1c2023";
+ color-urgent: "argb:00000000, #f43753, argb:00000000, argb:00000000, #292f56";
+ color-active: "argb:00000000, #49bbfb, argb:00000000, argb:00000000, #292f56";
+ color-window: "#292f56, #919ba0, #1c2023";
+}
+
+/* Theme used for the rofi launcher. put name of theme file below*/
+@theme "rounded-gray-dark.rasi"

@@ -1,0 +1,19 @@
+/* ROUNDED THEME FOR ROFI */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
+/* Colours applied to the rounded template: */
+* {
+    bg0:    #212121F2;
+    bg1:    #2A2A2A;
+    bg2:    #3D3D3D80;
+    bg3:    #616161F2;
+//    bg3:    #009493FF;
+    fg0:    #E6E6E6;
+    fg1:    #FFFFFF;
+    fg2:    #969696;
+    fg3:    #3D3D3D;
+}
+
+
+/* the rounded theme comes from the rounded template file. without it this theme doesn't work*/
+@import "rounded-template.rasi"

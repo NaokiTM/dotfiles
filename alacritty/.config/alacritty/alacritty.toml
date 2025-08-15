@@ -1,0 +1,12 @@
+[font]
+
+normal.family = "Ubuntu Mono"
+bold.family = "Ubuntu Mono"
+italic.family = "Ubuntu Mono"
+bold_italic.family = "Ubuntu Mono"
+
+size = 9.0
+
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"
