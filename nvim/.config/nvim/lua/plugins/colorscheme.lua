@@ -1,34 +1,25 @@
 return {
-  -- add dracula
---  { "Mofiqul/dracula.nvim" },
-
-    {
-        'AlexvZyl/nordic.nvim',
-        lazy = false,
-        priority = 1000,
-        config = function()
-            require('nordic').load()
-        end
-    },
-
-
-  -- Configure LazyVim to load dracula
   {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "nordic",
---    colorscheme = "dracula"
     },
+    -- disable Catppuccin that LazyVim might pull in
+    enabled = true,
+    dependencies = function()
+      -- filter out catppuccin if LazyVim lists it
+      return vim.tbl_filter(function(p)
+        return p[1] ~= "catppuccin/nvim"
+      end, require("lazy.core.config").plugins)
+    end
+  },
+
+  {
+    'AlexvZyl/nordic.nvim',
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require('nordic').load()
+    end
   },
 }
-
-
---catpuccin
--- return {
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       colorscheme = "catpuccin",
---     },
---   },
--- }

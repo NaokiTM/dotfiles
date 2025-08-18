@@ -9,9 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-
 for_window [class="^.*"] border pixel 3
-gaps inner 15
+gaps inner 10
 gaps outer 0
 
 
@@ -191,12 +190,13 @@ bindsym $mod+Shift+d exec ~/monitorchange.sh
 
 
 #window color
+#either use 1e1e2e for a bluish inactive border thing, or replace for another colour
 
  #                                border                               background                              text                          indicator
 
 client.focused                    #86B5F3 #86B5F3 #86B5F3 #86B5F3
-client.unfocused                    #555555                                #555555                                 #555555                         #555555
-client.focused_inactive            #555555                                 #555555                                 #555555                        #555555
+client.unfocused                    #1e1e2e                                #1e1e2e                               #1e1e2e                        #1e1e2e
+client.focused_inactive            #1e1e2e                              #1e1e2e                                 #1e1e2e                     #1e1e2e
 client.urgent                      #ff0000                                 #ff0000                                 #555555                        #ff0000
 
 #start polybar
