@@ -12,7 +12,8 @@ stow */
 - To undo all stowing (while still in the dotfiles directory) run: ```` stow -D */ ````
 
 ## Installing stuff: 
-- Installing all the programs listed below means that there won't be missing dependencies, so should be done to avoid things breaking. 
+- Installing all the programs listed below means that there won't be missing dependencies for the config files, so should be done to avoid things breaking. 
+- Also just useful for myself for later replication when it's all in one place.
 - To use images as logos in fastfetch, we need to install kitty since other terminals don't always support images, and also Imagemagick to allow for images to be generated. 
 
 ### Polybar
@@ -24,4 +25,17 @@ stow */
 ### Nerd fonts (for polybar statuses): 
 - Download the ttf file from: [https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/FiraCodeNerdFontMono-Regular.ttf]
 - Move the file to ```` ~/.local/share/fonts/ ````
+
+### homebrew and oh-my-posh: 
+- Download homebrew: 
+``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+
+- Then run these in order to add brew to path: 
+```
+    echo >> ~/.bashrc
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+```
+- Then to install oh-my-posh run: 
+```brew install jandedobbeleer/oh-my-posh/oh-my-posh```
 
