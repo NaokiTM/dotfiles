@@ -25,3 +25,4 @@ export PATH="$HOME/.cargo/bin:$PATH"
 #pokeget --mega-x charizard --hide-name | fastfetch --file-raw - || fastfetch
 pokeget random --hide-name | fastfetch --file-raw - || fastfetch
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(oh-my-posh init bash --config '~/dotfiles/oh-my-posh/M365Princess.omp.json')"

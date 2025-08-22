@@ -9,8 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-for_window [class="^.*"] border pixel 3
-gaps inner 10
+for_window [class="^.*"] border pixel 0
+gaps inner 15
 gaps outer 0
 
 
@@ -184,7 +184,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 
-exec feh --bg-fill ~/dotfiles/wallpapers/Pictures/wallpapers/constellation.png
+exec feh --bg-fill ~/dotfiles/wallpapers/Pictures/wallpapers/orangehouse.jpg
 
 bindsym $mod+Shift+d exec ~/monitorchange.sh
 
