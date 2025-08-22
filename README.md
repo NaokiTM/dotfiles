@@ -39,3 +39,6 @@ stow */
 - Then to install oh-my-posh run: 
 ```brew install jandedobbeleer/oh-my-posh/oh-my-posh```
 
+## Misc stuff:
+- To run welcome page on endeavourOS again, run ````eos-welcome --enable````, to run it only once use ````eos-welcome --once````
+
