@@ -17,69 +17,70 @@
         "separator": "  "
     },
     "modules": [
-        "break",
-        {
-            "type": "title",
-	    "color" :{
-		  "user":"#86B5F3",
-		  "at": "#ABCBF6",
-		  "host": "#A7CAF9"
-	    },
-            "key": "┌  ",
-            "keyColor": "#FFFFFF"
-        },
-        {
-            "type": "os",
-            "key": "├  ",
-            "keyColor": "#edf4fd"
-        },
-        {
-            "type": "kernel",
-            "keyColor": "#d3dff0",
-            "key": "├  "
-        },
-        {
-            "type": "wm",
-            "key": "├  ",
-            "keyColor": "#bacae2"
-        },
-        {
-            "type": "mouse",
-            "key": "├ 󰍽 ",
-            "keyColor": "#a2b6d5"
-        },
-        {
-            "type": "cpu",
-            "key": "├  ",
-            "keyColor": "#8aa2c8"
-        },
-        {
-            "type": "gpu",
-            "key": "├  ",
-            "keyColor": "#748ebb"
-        },
-        {
-            "type": "display",
-            "key": "├ 󰹑 ",
-            "keyColor": "#5d7aae"
-        },
-        {
-            "type": "uptime",
-            "key": "├  ",
-            "keyColor": "#5d7aae"
-        },
-        {
-            "type": "packages",
-            "format": "{} (xbps)",
-            "key": "├  ",
-            "keyColor": "#5d7aae"
-        },
-        {
-            "type": "processes",
-            "key": "└  ",
-            "keyColor": "#5d7aae"
-        },
+"break",
+{
+    "type": "title",
+    "color": {
+        "user":"#A64E00",
+        "at": "#FC822C",
+        "host": "#FFB273"
+    },
+    "key": "┌  ",
+    "keyColor": "#993D00"
+},
+{
+    "type": "os",
+    "key": "├  ",
+    "keyColor": "#993D00"
+},
+{
+    "type": "kernel",
+    "keyColor": "#993D00",
+    "key": "├  "
+},
+{
+    "type": "wm",
+    "key": "├  ",
+    "keyColor": "#993D00"
+},
+{
+    "type": "mouse",
+    "key": "├ 󰍽 ",
+    "keyColor": "#993D00"
+},
+{
+    "type": "cpu",
+    "key": "├  ",
+    "keyColor": "#B35900"
+},
+{
+    "type": "gpu",
+    "key": "├  ",
+    "keyColor": "#CC6600"
+},
+{
+    "type": "display",
+    "key": "├ 󰹑 ",
+    "keyColor": "#E6761F"
+},
+{
+    "type": "uptime",
+    "key": "├  ",
+    "keyColor": "#FC822C"
+},
+{
+    "type": "packages",
+    "format": "{} (xbps)",
+    "key": "├  ",
+    "keyColor": "#FC822C"
+},
+{
+    "type": "processes",
+    "key": "└  ",
+    "keyColor": "#FC822C"
+},
 
-        "break"
+"break"
+
     ]
 }
