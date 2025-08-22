@@ -21,8 +21,8 @@
 {
     "type": "title",
     "color": {
-        "user":"#A64E00",
-        "at": "#FC822C",
+        "user":"#FFB273",
+        "at": "#FFB273",
         "host": "#FFB273"
     },
     "key": "┌  ",
