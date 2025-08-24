@@ -9,8 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-for_window [class="^.*"] border pixel 0
-gaps inner 15
+for_window [class="^.*"] border pixel 2
+gaps inner 10
 gaps outer 0
 
 
@@ -184,7 +184,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 
-exec feh --bg-fill ~/dotfiles/wallpapers/Pictures/wallpapers/orangehouse.jpg
+exec feh --bg-fill ~/dotfiles/wallpapers/Pictures/wallpapers/city.jpg
 
 bindsym $mod+Shift+d exec ~/monitorchange.sh
 
@@ -194,7 +194,7 @@ bindsym $mod+Shift+d exec ~/monitorchange.sh
 
  #                                border                               background                              text                          indicator
 
-client.focused                    #86B5F3 #86B5F3 #86B5F3 #86B5F3
+client.focused                    #FC822C #FC822C #FC822C #FC822C
 client.unfocused                    #1e1e2e                                #1e1e2e                               #1e1e2e                        #1e1e2e
 client.focused_inactive            #1e1e2e                              #1e1e2e                                 #1e1e2e                     #1e1e2e
 client.urgent                      #ff0000                                 #ff0000                                 #555555                        #ff0000
