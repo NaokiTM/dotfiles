@@ -26,6 +26,8 @@ stow */
 - Download the ttf file from: [https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/FiraCodeNerdFontMono-Regular.ttf]
 - Move the file to ```` ~/.local/share/fonts/ ````
 
+- also download Inter variable font from [https://rsms.me/inter/download/] for use in polybar. unzip the archive, and Move intervariable.ttf and its variants to .local/share/fonts to be able to use. 
+
 ### homebrew and oh-my-posh: 
 - Download homebrew: 
 ``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
