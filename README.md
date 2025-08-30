@@ -41,6 +41,15 @@ stow */
 - Then to install oh-my-posh run: 
 ```brew install jandedobbeleer/oh-my-posh/oh-my-posh```
 
+### gtk themes and icons
+- I use graphite-dark theme: [https://www.pling.com/p/1598493] run these in the downloaded directory to extract: 
+```
+tar -xf Graphite-Dark.tar.xz
+sudo mv Graphite-Dark /usr/share/themes
+```
+- Then edit 
+
 ## Misc stuff:
 - To run welcome page on endeavourOS again, run ````eos-welcome --enable````, to run it only once use ````eos-welcome --once````
+
 

@@ -10,9 +10,9 @@ alias intellij='/opt/idea-IU-252.23892.409/bin/idea.sh'
 alias n='nnn -a'
 alias roblox='flatpak run org.vinegarhq.Sober'
 
-
+PS1='\[\033[38;2;255;182;193m\]   ➜ \w \[\033[0m\]'
 #PS1='\[\033[38;2;134;181;243m\]   ➜ \w \[\033[0m\]'
-PS1='\[\033[38;2;252;130;44m\]   ➜ \w \[\033[0m\]'
+#PS1='\[\033[38;2;252;130;44m\]   ➜ \w \[\033[0m\]'
 
 
 #export PS1="\[$(tput setaf 243)\]\u\[$(tput setaf 245)\]@\[$(tput setaf 249)\]\h \[$(tput setaf 254)\]\w \[$(tput sgr0)\]$ "
