@@ -11,7 +11,9 @@ alias n='nnn -a'
 alias roblox='flatpak run org.vinegarhq.Sober'
 
 
-PS1='\[\033[38;2;134;181;243m\]   ➜ \w \[\033[0m\]'
+#PS1='\[\033[38;2;134;181;243m\]   ➜ \w \[\033[0m\]'
+PS1='\[\033[38;2;252;130;44m\]   ➜ \w \[\033[0m\]'
+
 
 #export PS1="\[$(tput setaf 243)\]\u\[$(tput setaf 245)\]@\[$(tput setaf 249)\]\h \[$(tput setaf 254)\]\w \[$(tput sgr0)\]$ "
 #export PS1="\[\e[38;5;243m\]\u\[\e[38;5;245m\]@\[\e[38;5;249m\]\h \[\e[38;5;254m\]\w \[\033[0m\]$ "
@@ -23,6 +25,6 @@ PS1='\[\033[38;2;134;181;243m\]   ➜ \w \[\033[0m\]'
 export PATH="$HOME/.cargo/bin:$PATH"
 
 #pokeget --mega-x charizard --hide-name | fastfetch --file-raw - || fastfetch
-pokeget random --hide-name | fastfetch --file-raw - || fastfetch
+#pokeget random --hide-name | fastfetch --file-raw - || fastfetch
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(oh-my-posh init bash --config '~/dotfiles/oh-my-posh/M365Princess.omp.json')"
+#eval "$(oh-my-posh init bash --config '~/dotfiles/oh-my-posh/M365Princess.omp.json')"

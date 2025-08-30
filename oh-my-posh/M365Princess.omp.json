@@ -1,15 +1,16 @@
+
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-"palette": {
-  "white": "#FFFFFF",
-  "orange_dark": "#7A2E00",      // deep burnt autumn orange
-  "orange_mid": "#9C3C0A",       // darker mid-orange, slightly redder
-  "orange_base": "#C45214",      // strong autumn orange
-  "orange_light": "#E5671F",     // warm highlight but still dark-leaning
-  "orange_soft": "#FC822C",      // your original anchor shade
-  "orange_muted": "#D96E24",     // softened darker orange
-  "orange_highlight": "#B85A1B"  // warm earthy accent
-},
+  "palette": {
+    "white": "#FFFFFF",
+    "tan": "#CC3802",
+    "teal": "#047E84",
+    "plum": "#9A348E",
+    "blush": "#DA627D",
+    "salmon": "#FCA17D",
+    "sky": "#86BBD8",
+    "teal_blue": "#33658A"
+  },
   "blocks": [
     {
       "alignment": "left",
@@ -19,14 +20,14 @@
           "style": "diamond",
           "leading_diamond": "\ue0b6",
           "foreground": "p:white",
-          "background": "p:orange_dark",
+          "background": "p:tan",
           "template": "{{ if .Env.PNPPSHOST }} \uf8c5 {{ .Env.PNPPSHOST }} {{ end }}"
         },
         {
           "type": "text",
           "style": "powerline",
           "foreground": "p:white",
-          "background": "p:orange_mid",
+          "background": "p:teal",
           "powerline_symbol": "\ue0b0",
           "template": "{{ if .Env.PNPPSSITE }} \uf2dd {{ .Env.PNPPSSITE }}{{ end }}"
         },
@@ -35,7 +36,7 @@
           "style": "diamond",
           "trailing_diamond": "\ue0b4",
           "foreground": "p:white",
-          "background": "p:orange_mid",
+          "background": "p:teal",
           "template": "{{ if .Env.PNPPSSITE }}\u00A0{{ end }}"
         }
       ],
@@ -45,7 +46,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "p:orange_base",
+          "background": "p:plum",
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
@@ -53,7 +54,7 @@
           "type": "session"
         },
         {
-          "background": "p:orange_soft",
+          "background": "p:blush",
           "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -64,7 +65,7 @@
           "type": "path"
         },
         {
-          "background": "p:orange_light",
+          "background": "p:salmon",
           "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -77,7 +78,7 @@
           "type": "git"
         },
         {
-          "background": "p:orange_highlight",
+          "background": "p:sky",
           "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
@@ -85,7 +86,7 @@
           "type": "node"
         },
         {
-          "background": "p:orange_muted",
+          "background": "p:teal_blue",
           "foreground": "p:white",
           "properties": {
             "time_format": "15:04"
@@ -102,4 +103,5 @@
   "final_space": true,
   "version": 3
 }
+
 
