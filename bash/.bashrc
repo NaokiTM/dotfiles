@@ -24,7 +24,8 @@ PS1='\[\033[38;2;255;182;193m\]   ➜ \w \[\033[0m\]'
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
-#pokeget --mega-x charizard --hide-name | fastfetch --file-raw - || fastfetch
+pokeget --mega-x charizard --hide-name | fastfetch --file-raw - || fastfetch
+#pokeget bulbasaur --hide-name | fastfetch --file-raw - || fastfetch
 #pokeget random --hide-name | fastfetch --file-raw - || fastfetch
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-#eval "$(oh-my-posh init bash --config '~/dotfiles/oh-my-posh/M365Princess.omp.json')"
+eval "$(oh-my-posh init bash --config '~/dotfiles/oh-my-posh/catppuccin.omp.json')"
