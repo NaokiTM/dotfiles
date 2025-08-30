@@ -184,7 +184,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 
-exec feh --bg-fill ~/dotfiles/wallpapers/Pictures/wallpapers/darktowers.jpg
+exec feh --bg-fill ~/dotfiles/wallpapers/Pictures/wallpapers/arch.jpg
 bindsym $mod+Shift+d exec ~/monitorchange.sh
 
 
