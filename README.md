@@ -51,5 +51,9 @@ sudo mv Graphite-Dark /usr/share/themes
 
 ## Misc stuff:
 - To run welcome page on endeavourOS again, run ````eos-welcome --enable````, to run it only once use ````eos-welcome --once````
+- sudo pacman -S pyside6 qt6-base qt6-tools qt6-multimedia qt6-svg
+- sudo pacman -S qt6-multimedia
+
+
 
 
