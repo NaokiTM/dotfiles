@@ -6,11 +6,17 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-alias intellij='/opt/idea-IU-252.23892.409/bin/idea.sh'
+#alias intellij='/opt/idea-IU-252.23892.409/bin/idea.sh'
+alias intellij='/opt/idea-IC-252.27397.103/bin/idea.sh'
 alias n='nnn -a'
 alias roblox='flatpak run org.vinegarhq.Sober'
+alias sprite2='~/.config/linux-desktop-gremlin/run-x11.sh rice-shower'
+alias sprite1='~/.config/linux-desktop-gremlin/run-x11.sh mambo'
+alias sprite3='~/.config/linux-desktop-gremlin/run-x11.sh hikari'
 
-PS1='\[\033[38;2;255;182;193m\]   ➜ \w \[\033[0m\]'
+#PS1='\[\033[38;2;255;182;193m\]   ➜ \w \[\033[0m\]'
+#PS1='\[\033[38;2;254;1;154m\]   ➜ \w \[\033[0m\]'
+PS1='\[\033[38;2;255;255;255m\]~\[\033[0m\] '
 #PS1='\[\033[38;2;134;181;243m\]   ➜ \w \[\033[0m\]'
 #PS1='\[\033[38;2;252;130;44m\]   ➜ \w \[\033[0m\]'
 
@@ -23,9 +29,12 @@ PS1='\[\033[38;2;255;182;193m\]   ➜ \w \[\033[0m\]'
 #export PS1="\[\e[38;5;196m\]\u\[\e[38;5;202m\]@\[\e[38;5;208m\]\h \[\e[38;5;220m\]\w \[\033[0m\]$ "
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
-pokeget --mega-x charizard --hide-name | fastfetch --file-raw - || fastfetch
+#fastfetch
+
+#pokeget --mega-x charizard --hide-name | fastfetch --file-raw - || fastfetch
 #pokeget bulbasaur --hide-name | fastfetch --file-raw - || fastfetch
 #pokeget random --hide-name | fastfetch --file-raw - || fastfetch
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(oh-my-posh init bash --config '~/dotfiles/oh-my-posh/catppuccin.omp.json')"
+#eval "$(oh-my-posh init bash --config '~/dotfiles/oh-my-posh/catppuccin.omp.json')"
