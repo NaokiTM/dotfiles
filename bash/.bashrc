@@ -13,10 +13,12 @@ alias roblox='flatpak run org.vinegarhq.Sober'
 alias sprite2='~/.config/linux-desktop-gremlin/run-x11.sh rice-shower'
 alias sprite1='~/.config/linux-desktop-gremlin/run-x11.sh mambo'
 alias sprite3='~/.config/linux-desktop-gremlin/run-x11.sh hikari'
+alias cmatrix='cmatrix -C black'
+alias ff='fastfetch'
 
 #PS1='\[\033[38;2;255;182;193m\]   ➜ \w \[\033[0m\]'
 #PS1='\[\033[38;2;254;1;154m\]   ➜ \w \[\033[0m\]'
-PS1='\[\033[38;2;255;255;255m\]~\[\033[0m\] '
+PS1='\[\033[38;2;255;255;255m\]   ~\[\033[0m\] '
 #PS1='\[\033[38;2;134;181;243m\]   ➜ \w \[\033[0m\]'
 #PS1='\[\033[38;2;252;130;44m\]   ➜ \w \[\033[0m\]'
 
