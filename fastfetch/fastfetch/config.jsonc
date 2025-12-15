@@ -1,11 +1,12 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "~/dotfiles/fastfetch/fastfetch/logos/horse.png",
-	"width": 20,
-	"height": 9,
+        "source": "arch_small",
+        // "source": "~/dotfiles/fastfetch/fastfetch/logos/horse.png",
+	"width": 5,
+	"height": 1,
         "padding": {
-            "top": 0,
+            "top": 1,
             "left": 3
         },
         "color": {
@@ -17,7 +18,6 @@
         "separator": "  "
     },
     "modules": [
-"break",
 {
     "type": "title",
     "color": {
